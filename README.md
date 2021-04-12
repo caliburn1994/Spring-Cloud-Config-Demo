@@ -18,7 +18,7 @@ $ curl localhost:8888/foo/development
 
 ## demo-2
 
-See this  [branch](https://github.com/caliburn1994/Spring-Cloud-Config-Demo/tree/demo-1), get config from Github.
+See this  [branch](https://github.com/caliburn1994/Spring-Cloud-Config-Demo/tree/demo-2), get config from Github.
 
 ```bash
 $ curl localhost:8888/foo/development/main

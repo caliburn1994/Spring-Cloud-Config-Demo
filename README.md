@@ -24,7 +24,7 @@ See this  [branch](https://github.com/caliburn1994/Spring-Cloud-Config-Demo/tree
 $ curl localhost:8888/foo/development/main
 ```
 
-### demo-3
+## demo-3
 
 See this  [branch](https://github.com/caliburn1994/Spring-Cloud-Config-Demo/tree/demo-3)
 
@@ -34,8 +34,17 @@ See this  [branch](https://github.com/caliburn1994/Spring-Cloud-Config-Demo/tree
 
 ref: https://spring.io/guides/gs/centralized-configuration/
 
+## demo-4
+
+multiple profiles
+
+ref: https://spring.io/guides/gs/centralized-configuration/
+
+
+
 ## TODO
 
 - [ ] server with dir,not git rep
-
 - [ ] client get config from git rep, not server.
+- [ ] shutdown when file not found
+

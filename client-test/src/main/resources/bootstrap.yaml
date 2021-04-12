@@ -1,0 +1,9 @@
+spring.cloud.config.label: main
+spring.application.name: a-bootiful-client
+spring.config.import: optional:configserver:http://localhost:8888/
+spring.profiles.active: dev # prod
+
+
+spring.devtools.livereload.enabled: false
+
+

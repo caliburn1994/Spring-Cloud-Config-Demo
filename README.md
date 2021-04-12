@@ -24,3 +24,8 @@ See this  [branch](https://github.com/caliburn1994/Spring-Cloud-Config-Demo/tree
 $ curl localhost:8888/foo/development/main
 ```
 
+## TODO
+
+- [ ] server with dir,not git rep
+
+- [ ] client get config from git rep, not server.

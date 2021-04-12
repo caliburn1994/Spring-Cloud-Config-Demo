@@ -18,11 +18,21 @@ $ curl localhost:8888/foo/development
 
 ## demo-2
 
-See this  [branch](https://github.com/caliburn1994/Spring-Cloud-Config-Demo/tree/demo-1), get config from Github.
+See this  [branch](https://github.com/caliburn1994/Spring-Cloud-Config-Demo/tree/demo-2), get config from Github.
 
 ```bash
 $ curl localhost:8888/foo/development/main
 ```
+
+### demo-3
+
+See this  [branch](https://github.com/caliburn1994/Spring-Cloud-Config-Demo/tree/demo-3)
+
+1.  Run `\Spring-Cloud-Config-Demo\src\main\java\kyakya\icu\cloudconfig\CloudConfigApplication.java`
+2. Run `\Spring-Cloud-Config-Demo\client-test\src\main\java\kyakya\icu\clienttest\ClientTestApplication.java`
+   1. After starting,  click http://localhost:8080/message .
+
+ref: https://spring.io/guides/gs/centralized-configuration/
 
 ## TODO
 

@@ -1,4 +1,6 @@
-spring.cloud.config.label: main
+spring.cloud.config:
+  label: main
+  fail-fast: true  # if not connect, will throw exceptions
 spring.application.name: a-bootiful-client
 spring.config.import: optional:configserver:http://localhost:8888/
 spring.profiles.active: dev # prod

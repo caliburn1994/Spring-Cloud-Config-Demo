@@ -29,7 +29,7 @@ $ curl localhost:8888/foo/development/main
 See this  [branch](https://github.com/caliburn1994/Spring-Cloud-Config-Demo/tree/demo-3)
 
 1.  Run `\Spring-Cloud-Config-Demo\src\main\java\kyakya\icu\cloudconfig\CloudConfigApplication.java`
-2. Run `\Spring-Cloud-Config-Demo\client-test\src\main\java\kyakya\icu\clienttest\ClientTestApplication.java`
+2. Run `\Spring-Cloud-Config-Demo\config-client\src\main\java\kyakya\icu\clienttest\ClientTestApplication.java`
    1. After starting,  click http://localhost:8080/message .
 
 ref: https://spring.io/guides/gs/centralized-configuration/
@@ -46,5 +46,5 @@ ref: https://spring.io/guides/gs/centralized-configuration/
 
 - [ ] server with dir,not git rep
 - [ ] client get config from git rep, not server.
-- [ ] shutdown when file not found
+- [x] shutdown when file not found
 

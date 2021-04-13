@@ -1,14 +1,13 @@
-package kyakya.icu.clienttest;
+package kyakya.icu.configclient;
 
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class MessageRestController {
 
-    @Value("${message:Hello default}")
+    @Value("${message}")
     private String message;
 
     @RequestMapping("/message")
